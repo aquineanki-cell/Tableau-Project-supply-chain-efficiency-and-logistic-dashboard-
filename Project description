@@ -1,0 +1,28 @@
+Supply Chain & Logistics Performance Analytics
+Project Overview
+This project focuses on transforming raw supply chain data into actionable business intelligence. Using Tableau, I developed a comprehensive dashboard to monitor logistical efficiency, regional cost distributions, and supplier reliability. The goal is to provide stakeholders with a "single source of truth" for optimizing fulfillment strategies and reducing operational overhead.
+
+Key Features & Visualizations
+Executive KPI Header: Instant visibility into Total Cost per Unit ($16.89), Revenue Generated ($577k), and Order Fulfillment Rates (97.72%).
+
+Regional Inventory Analysis: A grouped bar chart identifying the "Inventory Gap" across East, South, and West regions to pinpoint stock-out risks.
+
+Cost Composition Pie Chart: A breakdown of Manufacturing, Shipping, Return, and Overhead costs to highlight the primary drivers of expenditure.
+
+Fulfillment Trend Timeline: A custom-engineered line chart (using calculated date fields) that tracks Lead Time trends from January through November.
+
+Carrier & Supplier Scorecards: Comparative analysis of Carrier performance (A, B, and C) and detailed Supplier metrics (Defect Rates vs. Lead Time).
+
+Technical Skills Applied
+Data Engineering: Created custom Order Date logic using INDEX() and DATEADD functions to generate time-series analysis from non-date datasets.
+
+Advanced Calculations: Implemented Table Calculations for "Percent of Total" cost analysis and logic-based KPI cards.
+
+UI/UX Design: Applied a professional dark-themed layout with a focus on visual hierarchy, color consistency, and scannable metrics.
+
+Data Interactivity: Integrated global filters for Routes and Regions to allow for granular data exploration.
+
+Tools Used
+Tableau Desktop / Public
+
+Data Transformation: Calculated Fields, Parameters, and Table Calculations.
